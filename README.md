@@ -20,8 +20,27 @@ This script is designed to make variable names consistent in a Python file. It a
 
 6. The script will apply a consistent naming convention to the variable names in the specified Python file.
 
-The default naming convention converts variable names to lowercase. You can modify the convert_to_consistent_name function in the script to implement your preferred convention.
+   - The default naming convention converts variable names to lowercase. You can modify the convert_to_consistent_name function in the script to implement your preferred convention.
 
-The modified content will be written back to the original file.
+   - The modified content will be written back to the original file.
 
 7. Please make sure to create a backup of your file before running this script, as it will modify the file in place.
+
+## Examples
+Here's an example of how the script can be used:
+
+   ```bash
+   python make_variable_names_consistent.py
+   Enter the path to the Python file: /path/to/your/python/file.py
+   ```
+   
+This will apply the consistent naming convention to the variable names in file.py.
+
+## License
+
+This project is licensed under the MIT License.
+
+Feel free to use, modify, and distribute this code as per the terms of the license.
+
+## Contributing
+If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request. Contributions are welcome!
